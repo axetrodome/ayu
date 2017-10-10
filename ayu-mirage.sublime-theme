@@ -105,7 +105,7 @@
 
   {
     "class": "table_row",
-    "layer0.tint": [33, 39, 50],
+    "layer0.tint": [31, 37, 48],
     "layer0.opacity": 0.0
   },
 
@@ -182,7 +182,7 @@
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [33, 39, 50]
+    "layer0.tint": [31, 37, 48]
   },
 
   // Quick panel project setting (project manager) (cmd + ctrl + p)
@@ -226,7 +226,7 @@
   {
     "class": "quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [33, 39, 50]
+    "layer0.tint": [31, 37, 48]
   },
 
   // Panel labels
@@ -500,7 +500,7 @@
     "class": "scroll_tabs_left_button",
     "content_margin": [12, 15],
     "layer0.texture": "ayu/assets/arrow-left.png",
-    "layer0.tint": [74, 85, 97],
+    "layer0.tint": [71, 81, 93],
     "layer0.opacity": 1.0
   },
 
@@ -514,7 +514,7 @@
     "class": "scroll_tabs_right_button",
     "content_margin": [12, 15],
     "layer0.texture": "ayu/assets/arrow-right.png",
-    "layer0.tint": [74, 85, 97],
+    "layer0.tint": [71, 81, 93],
     "layer0.opacity": 1.0
   },
   {
@@ -536,7 +536,7 @@
     "class": "show_tabs_dropdown_button",
     "content_margin": [12, 12],
     "layer0.texture": "ayu/assets/overflow-menu.png",
-    "layer0.tint": [74, 85, 97],
+    "layer0.tint": [71, 81, 93],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 0]
   },
@@ -709,7 +709,7 @@
     "layer0.opacity": 0,
 
     "layer1.texture": "ayu/assets/folder.png",
-    "layer1.tint": [74, 85, 97],
+    "layer1.tint": [71, 81, 93],
     "layer1.opacity": 1,
 
     "layer2.texture": "ayu/assets/folder-open.png",
@@ -793,7 +793,7 @@
     "class": "icon_folder_dup",
     "content_margin": [9, 9],
     "layer0.texture": "ayu/assets/folder.png",
-    "layer0.tint": [74, 85, 97],
+    "layer0.tint": [71, 81, 93],
     "layer0.opacity": 1.0,
 
     "layer1.texture": "ayu/assets/folder-symlink.png",
@@ -1149,7 +1149,7 @@
     "class": "dropdown_button_control",
     "content_margin": [12, 12],
     "layer0.texture": "ayu/assets/overflow-menu.png",
-    "layer0.tint": [74, 85, 97],
+    "layer0.tint": [71, 81, 93],
     "layer0.opacity": 1.0
   },
   {

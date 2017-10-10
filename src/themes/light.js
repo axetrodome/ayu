@@ -29,7 +29,7 @@ const ui = {
     border: common.bg.darken20,
     row: common.bg.darken1
   },
-  icon: common.ui.fade70,
+  icon: common.ui.fade60,
   scrollbar: { puck: $`000000` },
   separator: common.bg.darken4,
   minimap: common.bg.darken10,

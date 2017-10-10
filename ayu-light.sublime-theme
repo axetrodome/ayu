@@ -500,7 +500,7 @@
     "class": "scroll_tabs_left_button",
     "content_margin": [12, 15],
     "layer0.texture": "ayu/assets/arrow-left.png",
-    "layer0.tint": [185, 188, 191],
+    "layer0.tint": [194, 197, 200],
     "layer0.opacity": 1.0
   },
 
@@ -514,7 +514,7 @@
     "class": "scroll_tabs_right_button",
     "content_margin": [12, 15],
     "layer0.texture": "ayu/assets/arrow-right.png",
-    "layer0.tint": [185, 188, 191],
+    "layer0.tint": [194, 197, 200],
     "layer0.opacity": 1.0
   },
   {
@@ -536,7 +536,7 @@
     "class": "show_tabs_dropdown_button",
     "content_margin": [12, 12],
     "layer0.texture": "ayu/assets/overflow-menu.png",
-    "layer0.tint": [185, 188, 191],
+    "layer0.tint": [194, 197, 200],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 0]
   },
@@ -709,7 +709,7 @@
     "layer0.opacity": 0,
 
     "layer1.texture": "ayu/assets/folder.png",
-    "layer1.tint": [185, 188, 191],
+    "layer1.tint": [194, 197, 200],
     "layer1.opacity": 1,
 
     "layer2.texture": "ayu/assets/folder-open.png",
@@ -793,7 +793,7 @@
     "class": "icon_folder_dup",
     "content_margin": [9, 9],
     "layer0.texture": "ayu/assets/folder.png",
-    "layer0.tint": [185, 188, 191],
+    "layer0.tint": [194, 197, 200],
     "layer0.opacity": 1.0,
 
     "layer1.texture": "ayu/assets/folder-symlink.png",
@@ -1149,7 +1149,7 @@
     "class": "dropdown_button_control",
     "content_margin": [12, 12],
     "layer0.texture": "ayu/assets/overflow-menu.png",
-    "layer0.tint": [185, 188, 191],
+    "layer0.tint": [194, 197, 200],
     "layer0.opacity": 1.0
   },
   {
