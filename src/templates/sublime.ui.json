@@ -274,10 +274,10 @@
     "mouse_wheel_switch": false,
     "tab_min_width": 50,
     "tab_overlap": 0,
-    "tab_height": 32,
+    "tab_height": 36,
     "tab_width": 50,
 
-    "layer0.tint": ["{ui.separator.rgb}"],
+    "layer0.tint": ["{common.bg.rgb}"],
     "layer0.opacity": 1.0,
     "content_margin": [10, 0]
   },
@@ -305,17 +305,11 @@
     "layer2.inner_margin": [1, 2, 1, 0]
   },
 
-  {
-    "class": "tabset_control",
-    "settings": ["ui_big_tabs"],
-    "tab_height": 40
-  },
-
   // Tabs
   {
     "class": "tab_control",
 
-    "layer0.tint": ["{ui.separator.rgb}"],
+    "layer0.tint": ["{common.bg.rgb}"],
     "layer0.opacity": 1.0,
 
     "layer1.texture": "",
@@ -327,7 +321,7 @@
 
     "layer3.texture": "",
 
-    "content_margin": [15, 0, 15, 0],
+    "content_margin": [15, -2, 15, 0],
     "max_margin_trim": 12
   },
   {
@@ -343,11 +337,6 @@
     "layer3.tint": ["{ui.separator.rgb}"],
     "layer3.inner_margin": [1, 0, 1, 2],
     "layer3.opacity": "{ui.opacity}"
-  },
-  {
-    "class": "tab_control",
-    "settings": ["ui_big_tabs"],
-    "content_margin": [15, -2, 15, 0]
   },
 
   // Selected current tab
@@ -448,7 +437,7 @@
   {
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons"],
-    "content_margin": [8, 8]
+    "content_margin": [6, 8]
   },
 
   // Default hover
@@ -465,7 +454,7 @@
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
     "layer0.opacity": 0, // Close Icon
     "layer1.opacity": 1.0, // dirty Icon
-    "content_margin": [8, 8]
+    "content_margin": [6, 8]
   },
 
   // Dirty tab on hover
@@ -560,30 +549,21 @@
 
     "layer1.texture": "ayu/assets/sidebar.png",
     "layer1.inner_margin": [0, 40, 0, 0],
-    "layer1.opacity": 1.0,
+    "layer1.opacity": 0,
     "layer1.tint": ["{ui.separator.rgb}"],
 
     "layer2.texture": "ayu/assets/sidebar-title.png",
-    "layer2.inner_margin": [78, 40, 0, 0],
+    "layer2.inner_margin": [85, 40, 0, 0],
     "layer2.tint": ["{common.ui.rgb}"],
     "layer2.opacity": 1.0
   },
   {
     "class": "sidebar_container",
     "settings": ["ui_separator"],
-    "layer1.texture": "ayu/assets/separator-right.png",
-    "layer1.inner_margin": [0, 1, 2, 1],
-    "layer1.opacity": "{ui.opacity}",
-    "layer1.tint": ["{ui.separator.rgb}"],
-  },
-  {
-    "class": "sidebar_container",
-    "platforms": ["osx"],
-    "settings": ["ui_separator", "!ui_native_titlebar"],
-    "layer2.opacity": "{ui.opacity}",
-    "layer2.texture": "ayu/assets/separator-top.png",
-    "layer2.tint": ["{ui.separator.rgb}"],
-    "layer2.inner_margin": [1, 2, 1, 0]
+    "layer3.texture": "ayu/assets/separator-right.png",
+    "layer3.inner_margin": [0, 1, 2, 1],
+    "layer3.opacity": "{ui.opacity}",
+    "layer3.tint": ["{ui.separator.rgb}"],
   },
   {
     "class": "sidebar_tree",
@@ -832,7 +812,7 @@
   // Opened files
   {
     "class": "close_button",
-    "content_margin": [8, 8],
+    "content_margin": [6, 8],
 
   // Default Close icon
     "layer0.texture": "ayu/assets/close.png",
@@ -1058,7 +1038,7 @@
     "class": "status_bar",
     "settings": ["ui_separator"],
     // "layer0.tint": ["{ui.panel.bg.rgb}"],
-    "layer1.opacity": "{ui.opacity}"
+    // "layer1.opacity": "{ui.opacity}"
   },
 
   {
@@ -1099,7 +1079,7 @@
   {
     "class": "panel_control",
     "settings": ["ui_separator"],
-    "layer0.tint": ["{ui.panel.bg.rgb}"],
+    // "layer0.tint": ["{ui.panel.bg.rgb}"],
     "layer1.texture": "ayu/assets/separator-top.png",
     "layer1.tint": ["{ui.separator.rgb}"],
     "layer1.inner_margin": [1, 2, 1, 0],
@@ -1379,8 +1359,8 @@
    */
   {
     "class": "title_bar",
-    "bg": ["{ui.separator.rgb}"],
-    "fg": ["{common.ui.rgb}"]
+    "bg": ["{common.bg.rgb}"],
+    "fg": ["{common.fg.rgb}"]
   },
   {
     "class": "title_bar",
